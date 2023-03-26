@@ -24,22 +24,22 @@
                                 <rect key="frame" x="16" y="205.5" width="288" height="114"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="RDl-0D-OaA">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="106"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="22" height="106"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4q9-Wc-JfE">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="22"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDE-fJ-yBh">
-                                                <rect key="frame" x="0.0" y="42" width="30" height="22"/>
+                                                <rect key="frame" x="0.0" y="42" width="22" height="22"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                                 <color key="highlightedColor" systemColor="systemOrangeColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pE-ZA-m5q">
-                                                <rect key="frame" x="0.0" y="84" width="30" height="22"/>
+                                                <rect key="frame" x="0.0" y="84" width="22" height="22"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                                 <nil key="highlightedColor"/>
@@ -47,7 +47,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="yLu-QV-FFY">
-                                        <rect key="frame" x="43" y="1.5" width="31" height="105.5"/>
+                                        <rect key="frame" x="35" y="1.5" width="31" height="105.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxD-DZ-tup">
                                                 <rect key="frame" x="0.0" y="0.0" width="31" height="20.5"/>
@@ -70,10 +70,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="NKH-IJ-l3Z">
-                                        <rect key="frame" x="87" y="0.0" width="201" height="114"/>
+                                        <rect key="frame" x="79" y="0.0" width="209" height="114"/>
                                         <subviews>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="kQ6-7S-U1Z">
-                                                <rect key="frame" x="-2" y="0.0" width="205" height="31"/>
+                                                <rect key="frame" x="-2" y="0.0" width="213" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemPinkColor"/>
                                                 <color key="thumbTintColor" systemColor="systemOrangeColor"/>
                                                 <connections>
@@ -81,7 +81,7 @@
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5bt-zm-Nxs">
-                                                <rect key="frame" x="-2" y="42" width="205" height="31"/>
+                                                <rect key="frame" x="-2" y="42" width="213" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                                 <color key="thumbTintColor" systemColor="systemOrangeColor"/>
                                                 <connections>
@@ -89,7 +89,7 @@
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="vzo-tq-31c">
-                                                <rect key="frame" x="-2" y="84" width="205" height="31"/>
+                                                <rect key="frame" x="-2" y="84" width="213" height="31"/>
                                                 <color key="minimumTrackTintColor" systemColor="linkColor"/>
                                                 <color key="thumbTintColor" systemColor="systemOrangeColor"/>
                                                 <connections>
@@ -99,10 +99,6 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="yLu-QV-FFY" firstAttribute="leading" secondItem="RDl-0D-OaA" secondAttribute="trailing" constant="5" id="xWI-6M-3tW"/>
-                                    <constraint firstItem="NKH-IJ-l3Z" firstAttribute="leading" secondItem="yLu-QV-FFY" secondAttribute="trailing" constant="5" id="xaz-vT-mEO"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
