@@ -26,35 +26,42 @@ class ViewController: UIViewController {
         greenLabelValue.text = greenSlider.value.formatted()
         blueLabelValue.text = blueSlider.value.formatted()
         mainView.layer.cornerRadius = 25
-//        setColor()
+        
     }
-
-    @IBAction func redSliderAction() {
-        mainView.backgroundColor = .red
-        mainView.backgroundColor = mainView.backgroundColor?.withAlphaComponent(CGFloat(redSlider.value))
+    
+    @IBAction func sliderAction() {
+        mixColor()
         redLabelValue.text = String(format: "%.2f", redSlider.value)
-    }
-    
-    @IBAction func greenSliderAction() {
-        mainView.backgroundColor = .green
-        mainView.backgroundColor = mainView.backgroundColor?.withAlphaComponent(CGFloat(greenSlider.value))
         greenLabelValue.text = String(format: "%.2f", greenSlider.value)
-    }
-    
-    @IBAction func blueSliderAction() {
-        mainView.backgroundColor = .blue
-        mainView.backgroundColor = mainView.backgroundColor?.withAlphaComponent(CGFloat(blueSlider.value))
         blueLabelValue.text = String(format: "%.2f", blueSlider.value)
     }
-    
-//    private func setColor() {
-//        mainView.backgroundColor = UIColor (
-//            red: CGFloat(redSlider.value),
-//            green: CGFloat(greenSlider.value),
-//            blue: CGFloat(blueSlider.value),
-//            alpha: 1
-//        )
+
+//    @IBAction func redSliderAction() {
+////        mainView.backgroundColor = .red
+////        mainView.backgroundColor = mainView.backgroundColor?.withAlphaComponent(CGFloat(redSlider.value))
+//        redLabelValue.text = String(format: "%.2f", redSlider.value)
 //    }
+//
+//    @IBAction func greenSliderAction() {
+////        mainView.backgroundColor = .green
+////        mainView.backgroundColor = mainView.backgroundColor?.withAlphaComponent(CGFloat(greenSlider.value))
+//        greenLabelValue.text = String(format: "%.2f", greenSlider.value)
+//    }
+//
+//    @IBAction func blueSliderAction() {
+////        mainView.backgroundColor = .blue
+////        mainView.backgroundColor = mainView.backgroundColor?.withAlphaComponent(CGFloat(blueSlider.value))
+//        blueLabelValue.text = String(format: "%.2f", blueSlider.value)
+//    }
+    
+    private func mixColor() {
+        mainView.backgroundColor = UIColor (
+            red: CGFloat(redSlider.value),
+            green: CGFloat(greenSlider.value),
+            blue: CGFloat(blueSlider.value),
+            alpha: 1
+        )
+    }
     
     
     // private func slidersSetup() {
